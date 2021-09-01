@@ -20,6 +20,10 @@ ul{
   list-style-type: none;
 }
 
+#hulled{
+  margin: 15 15 0 15px;
+}
+
 #hulled_label{
   text-align: inherit;
   font-size: 16px;
@@ -32,7 +36,7 @@ ul{
 }
 
 ul.step2{
-  text-align: inherit;
+  text-align: left;
 }
 
 .main{
@@ -45,4 +49,8 @@ ul.step2{
   border: 3px solid #ffffff;
   align: center;
   height: 500px;
+}
+
+.jumbotron{
+  display: flex;
 }
