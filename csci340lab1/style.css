@@ -21,7 +21,7 @@ ul{
 }
 
 #hulled_label{
-  text-align: justify;
+  text-align: inherit;
   font-size: 16px;
 }
 
@@ -32,7 +32,7 @@ ul{
 }
 
 ul.step2{
-  display: inline;
+  text-align: inherit;
 }
 
 .main{
