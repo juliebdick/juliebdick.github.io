@@ -1,8 +1,9 @@
 body{
   font-family: 'Mukta', sans-serif;
-  color: #ccae5e;
+  color: #ffffff;
   text-align: center;
   font-size: 25px;
+  background-color: #ccae5e;
 }
 
 header h1{
@@ -30,7 +31,7 @@ header h1{
 }
 
 .image{
-  margin: 20px;
+  margin: 15px;
   padding: 10px;
   border: 3px solid #ffffff;
   align: center;
