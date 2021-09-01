@@ -15,8 +15,13 @@ header h1{
 
 }
 
+/* https://www.bitdegree.org/learn/css-list-style */
+ul.ba{
+  list-style-type: none;
+}
+
 #hulled_label{
-  text-align: right;
+  text-align: justify;
   font-size: 16px;
 }
 
