@@ -12,6 +12,7 @@ header h1{
   color: #ffffff;
   background-color: #ccae5e;
   text-align: center;
+
 }
 
 /* https://www.bitdegree.org/learn/css-list-style */
@@ -35,7 +36,11 @@ ul{
 }
 
 ul.step2{
-  text-align: inherit;
+  text-align: left;
+}
+
+.main{
+
 }
 
 .image{
