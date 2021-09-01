@@ -16,7 +16,7 @@ header h1{
 }
 
 /* https://www.bitdegree.org/learn/css-list-style */
-ul.ba{
+ul{
   list-style-type: none;
 }
 
@@ -29,6 +29,10 @@ ul.ba{
   border: 1px solid #000000;
   text-align: center;
   padding: 20px;
+}
+
+ul.step2{
+  display: inline;
 }
 
 .main{
