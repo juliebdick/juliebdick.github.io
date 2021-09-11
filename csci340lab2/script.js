@@ -2,10 +2,9 @@ $(document).ready(function() {
   $('#clicker').click(function() {
     $.ajax({
       dataType: "json"
-      url: ""
+      url: "fooddata.js"
       success: function(results) {
         console.log(results["url"]);
-        
       }
     })
   })
