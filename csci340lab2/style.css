@@ -1,8 +1,18 @@
 body{
   font-family: 'Noto Sans JP', sans-serif;
-  background-color: #D1F2EB;
+  background-color: #D4E6F1;
   color: #626567;
 }
+
+h1{
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
+
+.heading{
+  text-align: center;
+}
+
 
 .image{
   margin: 15px;
