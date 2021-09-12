@@ -8,7 +8,7 @@ $(document).ready(function() {
         if (results["url"].endsWith(".gif")) {
           $('#dog').attr("src", "blank.png");
         } else {
-          $('#dog').attr("src", results["url"]);
+          $('#dog').attr("src", results[0]);
         }
       },
       error: function(xhr,status,error) {
