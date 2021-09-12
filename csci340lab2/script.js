@@ -12,7 +12,7 @@ $(document).ready(function() {
       }
     })
   })
-  $('clicker2').click(function() {
+  $('#clicker2').click(function() {
     $.ajax({
       dataType: "json",
       url: "https://foodish-api.herokuapp.com/api/?format=json",
