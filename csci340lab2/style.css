@@ -14,8 +14,26 @@ h2{
   font-family: 'Noto Sans JP', sans-serif;
 }
 
+.row {
+  padding: inherit;
+  margin: auto;
+}
+
+.container {
+  padding: inherit;
+}
+
 #heading{
-  text-align: center;
+  text-align: left;
+}
+
+#clicker{
+
+}
+
+#clicker2{
+
+  float: right;
 }
 
 
