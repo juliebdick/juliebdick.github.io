@@ -23,8 +23,9 @@ h2{
   padding: inherit;
 }
 
-#heading{
+.button_heading{
   text-align: left;
+  margin: 10px;
 }
 
 #clicker {
