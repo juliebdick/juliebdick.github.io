@@ -27,17 +27,16 @@ h2{
   text-align: left;
 }
 
-#clicker{
-
+#clicker {
+  
 }
 
 #clicker2{
-
   float: right;
 }
 
 
-.image{
+#cat{
   margin: 15px;
   padding: 10px;
   border: 3px solid #ffffff;
