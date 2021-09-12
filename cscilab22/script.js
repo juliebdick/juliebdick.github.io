@@ -4,8 +4,8 @@ $(document).ready(function() {
       dataType: "json",
       url: "https://api.thecatapi.com/v1/images/search?format=json",
       success: function(results) {
-        console.log(results.keys(req)[0]);
-        $('#dog').attr("src", results.keys(req)[0]);
+        console.log(results[0].get("url"));
+        $('#dog').attr("src", results[0].get("url"));
         //if (results["url"].endsWith(".mp4")) {
           //$('#dog').attr("src", "blank.png");
         //} else {
