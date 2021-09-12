@@ -12,4 +12,17 @@ $(document).ready(function() {
       }
     })
   })
+  $('clicker2').click(function() {
+    $.ajax({
+      dataType: "json",
+      url: "https://foodish-api.herokuapp.com/api/?format=json",
+      success: function(results) {
+        console.log(results["image"]);
+        $('#food').attr("src", results["image"]);
+      },
+      error: function(xhr,status,error) {
+        console.log(error);
+      }
+    })
+  })
 })
